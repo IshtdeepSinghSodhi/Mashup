@@ -4,7 +4,7 @@ import glob
 page_bg_img = '''
 <style>
 body {
-background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmusic&psig=AOvVaw17MkYGF5GDweewFj8IMx-8&ust=1676294013269000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCNCIyPqHkP0CFQAAAAAdAAAAABAE");
+background-image: url("https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWN8ZW58MHx8MHx8&w=1000&q=80");
 background-size: cover;
 }
 </style>
