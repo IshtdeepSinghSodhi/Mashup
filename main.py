@@ -8,7 +8,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://www.shutterstock.com/image-illustration/3d-illustration-musical-notes-signs-260nw-761313844.jpg");
+             background-image: url("https://img.freepik.com/free-vector/vector-abstract-musical-background-vector-illustration_206725-626.jpg?w=2000");
              background-attachment: fixed;
              background-size: cover
          }}
