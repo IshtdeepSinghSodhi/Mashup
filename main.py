@@ -1,7 +1,16 @@
 import streamlit as st
 import os
 import glob
+page_bg_img = '''
+<style>
+body {
+background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmusic&psig=AOvVaw17MkYGF5GDweewFj8IMx-8&ust=1676294013269000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCNCIyPqHkP0CFQAAAAAdAAAAABAE");
+background-size: cover;
+}
+</style>
+'''
 
+st.markdown(page_bg_img, unsafe_allow_html=True)
 # Get a list of all files in the folder
 folder = os.getcwd()
 files = glob.glob(folder + "/*")
