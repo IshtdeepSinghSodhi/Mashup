@@ -23,7 +23,7 @@ if (len(mp4_files) > 0):
 
 flag = 0
 end = 0
-st.title('Mashup:notes:	:musical_score::musical_note:')
+st.title('Mashup:notes::notes::notes:')
 st.write('Made by Ishtdeep Singh Sodhi')
 name = st.text_input("Singer Name")
 n = int(st.number_input("No. of videos", step=1))
