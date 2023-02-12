@@ -1,19 +1,18 @@
 import streamlit as st
 import os
 import glob
-st.markdown(
-    """
-    <style>
-    .reportview-container {
-        background: url("https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWN8ZW58MHx8MHx8&w=1000&q=80")
-    }
-   
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+page_bg_img = 
+<style>
+body {
+background-image: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");
+background-size: cover;
+}
+</style>
+
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
+
+
 # Get a list of all files in the folder
 folder = os.getcwd()
 files = glob.glob(folder + "/*")
