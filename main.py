@@ -8,7 +8,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://img.freepik.com/premium-photo/dj-audio-mixer-controller-mixing-electronic-music-nightclub-party-selective-focus-2d-illustration_67092-1378.jpg?w=2000");
+             background-image: url("https://www.shutterstock.com/image-illustration/3d-illustration-musical-notes-signs-260nw-761313844.jpg");
              background-attachment: fixed;
              background-size: cover
          }}
